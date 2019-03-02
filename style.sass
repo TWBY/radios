@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500')
 
 @mixin size($w,$h)
@@ -10,7 +9,6 @@
     display: $display
     justify-content: $justify-content
     align-items:  $align-items  
-
 *
     //border: solid 1px black 
 
@@ -20,25 +18,19 @@ body, html
     +size(100%,100%)
     font-family: 'Roboto', sans-serif
 
-    
-  
-
 .commodity
     width: 50%
 
 .testform
     display: inline-block
-
     .radio_one, .radio_two, .radio_three, .radio_four
         display: flex
         margin-top: 3px
-
     input
         display: none
         &:checked + .flt-wrp-lb
             background-color: #111
             color: #eee
-
     label, h4
         +place
         +size(25px,25px)

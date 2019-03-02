@@ -1,80 +1,84 @@
 doctype html
-html
+html(lang="en")
 	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
 		link(rel='stylesheet', type='text/css', href='style.css')
-		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
-		script(src='script.js')
-body
-	//img.commodity(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXYhM9dn1xGciyXzlqu08-nG2EN6IQ6u4d6Dbxm7uLvZqrNyhGg", alt="")
-	form(action="", method="get", class='testform')
-		.radio_one
-			h4 流線的
-			input#one_one(type='radio', name='switcher', value='1')    
-			label.flt-wrp-lb(for='one_one') 1
-			input#one_two(type='radio', name='switcher', value='2')    
-			label.flt-wrp-lb(for='one_two') 2
-			input#one_three(type='radio', name='switcher', value='3' )    
-			label.flt-wrp-lb(for='one_three') 3
-			input#one_four(type='radio', name='switcher', value='4')    
-			label.flt-wrp-lb(for='one_four') 4
-			input#one_five(type='radio', name='switcher', value='5')    
-			label.flt-wrp-lb(for='one_five') 5
-			input#one_six(type='radio', name='switcher', value='5' )    
-			label.flt-wrp-lb(for='one_six') 6
-			input#one_seven(type='radio', name='switcher', value='7' )    
-			label.flt-wrp-lb(for='one_seven') 7
-			h4 流線的
+		title Document
+	body
+		//img.commodity(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXYhM9dn1xGciyXzlqu08-nG2EN6IQ6u4d6Dbxm7uLvZqrNyhGg", alt="")
+		form(action="", method="get", class='testform')
+			.radio_one
+				h4 流線的
+				input#one_one(type='radio', name='switcher', value='1')    
+				label.flt-wrp-lb(for='one_one') 1
+				input#one_two(type='radio', name='switcher', value='2')    
+				label.flt-wrp-lb(for='one_two') 2
+				input#one_three(type='radio', name='switcher', value='3' )    
+				label.flt-wrp-lb(for='one_three') 3
+				input#one_four(type='radio', name='switcher', value='4')    
+				label.flt-wrp-lb(for='one_four') 4
+				input#one_five(type='radio', name='switcher', value='5')    
+				label.flt-wrp-lb(for='one_five') 5
+				input#one_six(type='radio', name='switcher', value='5' )    
+				label.flt-wrp-lb(for='one_six') 6
+				input#one_seven(type='radio', name='switcher', value='7' )    
+				label.flt-wrp-lb(for='one_seven') 7
+				h4 流線的
 
-		.radio_two
-			h4 流線的
-			input#two_one(type='radio', name='switcher2', value='1')    
-			label.flt-wrp-lb(for='two_one') 1
-			input#two_two(type='radio', name='switcher2', value='2')    
-			label.flt-wrp-lb(for='two_two') 2
-			input#two_three(type='radio', name='switcher2', value='3' )    
-			label.flt-wrp-lb(for='two_three') 3
-			input#two_four(type='radio', name='switcher2', value='4')    
-			label.flt-wrp-lb(for='two_four') 4
-			input#two_five(type='radio', name='switcher2', value='5')    
-			label.flt-wrp-lb(for='two_five') 5
-			input#two_six(type='radio', name='switcher2', value='5' )    
-			label.flt-wrp-lb(for='two_six') 6
-			input#two_seven(type='radio', name='switcher2', value='7' )    
-			label.flt-wrp-lb(for='two_seven') 7
-			h4 流線的
-		.radio_three
-			h4 流線的
-			input#three_one(type='radio', name='switcher3', value='1')    
-			label.flt-wrp-lb(for='three_one') 1
-			input#three_two(type='radio', name='switcher3', value='2')    
-			label.flt-wrp-lb(for='three_two') 2
-			input#three_three(type='radio', name='switcher3', value='3' )    
-			label.flt-wrp-lb(for='three_three') 3
-			input#three_four(type='radio', name='switcher3', value='4')    
-			label.flt-wrp-lb(for='three_four') 4
-			input#three_five(type='radio', name='switcher3', value='5')    
-			label.flt-wrp-lb(for='three_five') 5
-			input#three_six(type='radio', name='switcher3', value='5' )    
-			label.flt-wrp-lb(for='three_six') 6
-			input#three_seven(type='radio', name='switcher3', value='7' )    
-			label.flt-wrp-lb(for='three_seven') 7
-			h4 流線的
-		.radio_four
-			h4 流線的
-			input#four_one(type='radio', name='switcher4', value='1')    
-			label.flt-wrp-lb(for='four_one') 1
-			input#four_two(type='radio', name='switcher4', value='2')    
-			label.flt-wrp-lb(for='four_two') 2
-			input#four_three(type='radio', name='switcher4', value='3' )    
-			label.flt-wrp-lb(for='four_three') 3
-			input#four_four(type='radio', name='switcher4', value='4')    
-			label.flt-wrp-lb(for='four_four') 4
-			input#four_five(type='radio', name='switcher4', value='5')    
-			label.flt-wrp-lb(for='four_five') 5
-			input#four_six(type='radio', name='switcher4', value='5' )    
-			label.flt-wrp-lb(for='four_six') 6
-			input#four_seven(type='radio', name='switcher4', value='7' )    
-			label.flt-wrp-lb(for='four_seven') 7
-			h4 流線的
-		
-	
+			.radio_two
+				h4 流線的
+				input#two_one(type='radio', name='switcher2', value='1')    
+				label.flt-wrp-lb(for='two_one') 1
+				input#two_two(type='radio', name='switcher2', value='2')    
+				label.flt-wrp-lb(for='two_two') 2
+				input#two_three(type='radio', name='switcher2', value='3' )    
+				label.flt-wrp-lb(for='two_three') 3
+				input#two_four(type='radio', name='switcher2', value='4')    
+				label.flt-wrp-lb(for='two_four') 4
+				input#two_five(type='radio', name='switcher2', value='5')    
+				label.flt-wrp-lb(for='two_five') 5
+				input#two_six(type='radio', name='switcher2', value='5' )    
+				label.flt-wrp-lb(for='two_six') 6
+				input#two_seven(type='radio', name='switcher2', value='7' )    
+				label.flt-wrp-lb(for='two_seven') 7
+				h4 流線的
+
+			.radio_three
+				h4 流線的
+				input#three_one(type='radio', name='switcher3', value='1')    
+				label.flt-wrp-lb(for='three_one') 1
+				input#three_two(type='radio', name='switcher3', value='2')    
+				label.flt-wrp-lb(for='three_two') 2
+				input#three_three(type='radio', name='switcher3', value='3' )    
+				label.flt-wrp-lb(for='three_three') 3
+				input#three_four(type='radio', name='switcher3', value='4')    
+				label.flt-wrp-lb(for='three_four') 4
+				input#three_five(type='radio', name='switcher3', value='5')    
+				label.flt-wrp-lb(for='three_five') 5
+				input#three_six(type='radio', name='switcher3', value='5' )    
+				label.flt-wrp-lb(for='three_six') 6
+				input#three_seven(type='radio', name='switcher3', value='7' )    
+				label.flt-wrp-lb(for='three_seven') 7
+				h4 流線的
+				
+			.radio_four
+				h4 流線的
+				input#four_one(type='radio', name='switcher4', value='1')    
+				label.flt-wrp-lb(for='four_one') 1
+				input#four_two(type='radio', name='switcher4', value='2')    
+				label.flt-wrp-lb(for='four_two') 2
+				input#four_three(type='radio', name='switcher4', value='3' )    
+				label.flt-wrp-lb(for='four_three') 3
+				input#four_four(type='radio', name='switcher4', value='4')    
+				label.flt-wrp-lb(for='four_four') 4
+				input#four_five(type='radio', name='switcher4', value='5')    
+				label.flt-wrp-lb(for='four_five') 5
+				input#four_six(type='radio', name='switcher4', value='5' )    
+				label.flt-wrp-lb(for='four_six') 6
+				input#four_seven(type='radio', name='switcher4', value='7' )    
+				label.flt-wrp-lb(for='four_seven') 7
+				h4 流線的
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+		script(src="srcipt.js")
